@@ -4,7 +4,7 @@ export const dataProducts = [
     name: "Стул «Карамель»",
     newPrice: "$195",
     oldPrice: "$245",
-    imgSrc: "../img/chair-caramel-desktop.png",
+    imgSrc: "./img/chair-caramel-desktop.png",
     alt: "chair",
   },
   {
@@ -12,7 +12,7 @@ export const dataProducts = [
     name: "Стул «Облако»",
     newPrice: "$200",
     oldPrice: "$250",
-    imgSrc: "../img/chair-cloud-desktop.jpg",
+    imgSrc: "./img/chair-cloud-desktop.jpg",
     alt: "chair",
   },
   {
@@ -20,7 +20,7 @@ export const dataProducts = [
     name: "Стул «Сова»",
     newPrice: "$240",
     oldPrice: "$260",
-    imgSrc: "../img/chair-owl-desktop.png",
+    imgSrc: "./img/chair-owl-desktop.png",
     alt: "chair",
   },
   {
@@ -28,7 +28,7 @@ export const dataProducts = [
     name: "Стул «Мая»",
     newPrice: "$280",
     oldPrice: "$330",
-    imgSrc: "../img/chair-maya-desktop.jpg",
+    imgSrc: "./img/chair-maya-desktop.jpg",
     alt: "chair",
   },
   {
@@ -36,7 +36,7 @@ export const dataProducts = [
     name: "Стул «Месси»",
     newPrice: "$280",
     oldPrice: "$305",
-    imgSrc: "../img/chair-messi-desktop.png",
+    imgSrc: "./img/chair-messi-desktop.png",
     alt: "chair",
   },
   {
@@ -44,7 +44,7 @@ export const dataProducts = [
     name: "Стул «Карамель»",
     newPrice: "$195",
     oldPrice: "$245",
-    imgSrc: "../img/chair-caramel-desktop.png",
+    imgSrc: "./img/chair-caramel-desktop.png",
     alt: "chair",
   },
   {
@@ -52,7 +52,7 @@ export const dataProducts = [
     name: "Стул «Карамель»",
     newPrice: "$195",
     oldPrice: "$245",
-    imgSrc: "../img/chair-caramel-desktop.png",
+    imgSrc: "./img/chair-caramel-desktop.png",
     alt: "chair",
   },
   {
@@ -60,7 +60,7 @@ export const dataProducts = [
     name: "Стул «Карамель»",
     newPrice: "$195",
     oldPrice: "$245",
-    imgSrc: "../img/chair-caramel-desktop.png",
+    imgSrc: "./img/chair-caramel-desktop.png",
     alt: "chair",
   },
   {
@@ -68,7 +68,7 @@ export const dataProducts = [
     name: "Стул «Карамель»",
     newPrice: "$195",
     oldPrice: "$245",
-    imgSrc: "../img/chair-caramel-desktop.png",
+    imgSrc: "./img/chair-caramel-desktop.png",
     alt: "chair",
   },
 ]
