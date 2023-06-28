@@ -6,7 +6,9 @@ https://elisean.github.io/Furniture/
 Instruction  <
 
 Download application
+
 Run terminal inside this folder
+
 npm install --global http-server
 
 >
