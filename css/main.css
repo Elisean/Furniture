@@ -70,6 +70,10 @@ img {
 
 .header__logo {
   padding-top: 5px;
+  transition: .5s all;
+}
+.header__logo:hover{
+  color: #000000b7;
 }
 
 .header__burger{
@@ -131,6 +135,10 @@ img {
 }
 .search{
   padding-top: 3px;
+  cursor: pointer;
+}
+.search:hover{
+    color: #000000ae;
 }
 .user-nav__item a:focus,
 .user-nav__item a:hover {
@@ -517,6 +525,12 @@ img {
   margin: 0 30px 37px 0;
   text-align: center;
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.03);
+  transition: .5s all;
+  cursor: pointer;
+}
+.gallery-inner:hover,
+.novelties__title-inner:hover{
+  background-color: #FAECE9;
 }
 .table-cream{
   background-color: #FAECE9;
@@ -527,7 +541,10 @@ img {
   background-color: #FFFFFF;
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.03);
   text-align: center;
+  transition: .5s all;
+  cursor: pointer;
 }
+
 .chandelier-image{
   height: 196px;
 }
@@ -611,6 +628,11 @@ img {
  background-color: #FFFFFF;
  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.3);
  border-radius: 50%;
+ transition: .5s all;
+}
+.swiper-button-prev:hover::after,
+.slider-button-next:hover::after{
+  background-color: #FCEAE8;
 }
 
 .slider-button-next::after{
@@ -623,6 +645,7 @@ img {
   background: url('../img/arrow-right.svg') no-repeat;
   background-size: 20px;
   background-position: 7px 12px;
+  transition: .5s all;
 }
 
 .swiper-button-next::after{
@@ -653,10 +676,15 @@ img {
   display: none;
 }
 
-.footer__top-logo> a img{
+.footer__top-logo> a svg{
   width: 20px;
   height: 20px;
+  transition: .5s all;
 }
+.footer__top-logo:hover{
+  color: #000000b7;
+}
+
 .footer__top{
   margin: 166px 0 0 0;
 }
@@ -678,13 +706,16 @@ img {
   line-height: 0%;
   letter-spacing: 0.7px;
 }
+
 .footer__top-item:first-child{
   margin: 0;
 }
 .footer__top-item > a{
   color: #303032;
 }
-
+.footer__top-item > a:hover{
+  color: #0000009b;
+}
 .footer__middle{
   display: flex;
   align-items: center;
@@ -704,7 +735,14 @@ img {
   font-size: 16px;
   font-family: Roboto;
   margin: 0 0 0 5px;
+  transition: .5s all;
 }
+.footer__middle-phone >a:hover,
+.footer__middle-email >a:hover{
+color: #000000b6;
+}
+
+
 
 .footer__middle-email{
   align-items: center;
@@ -721,6 +759,7 @@ img {
   font-family: Roboto;
   margin: 0 0 0 5px;
 }
+
 .footer__bottom-line{
   margin: 30px 0 0 0;
   width: 100%;
@@ -784,6 +823,10 @@ img {
   font-weight: 600;
   line-height: 153.885%;
   cursor: pointer;
+  transition: .5s all;
+}
+.tabs__item:hover{
+  color: #000000;
 }
 .tabs-active{
   color: #000000;
@@ -795,7 +838,9 @@ img {
   overflow: hidden;
   position: relative;
 }
-
+.swiper-slide{
+  cursor: pointer;
+}
 .carousel__item{
   width: 200px;
   background-color: #FFFFFF;
@@ -875,6 +920,9 @@ img {
   left: 0;
   opacity: 1;
   visibility: visible;
+}
+.carousel__item-btn.open:hover{
+  background-color: #000000b9;
 }
 .carousel-scrollbar{
   display: none;
