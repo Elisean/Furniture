@@ -567,7 +567,6 @@ img {
 
 .reviews{
   margin: 102px 0 0 0;
-  
 }
 .reviews__content{
   position: relative;
@@ -576,7 +575,6 @@ img {
 .slider-reviews{
   overflow: hidden;
   margin: 0 auto;
-  
 }
 
 .slider__slide{
@@ -741,8 +739,6 @@ img {
 .footer__middle-email >a:hover{
 color: #000000b6;
 }
-
-
 
 .footer__middle-email{
   align-items: center;

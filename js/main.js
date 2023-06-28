@@ -195,7 +195,7 @@ document.addEventListener('DOMContentLoaded', () => {
         prevEl: ".swiper-button-prev, .slider-button-prev",
       },
       pagination: {
-        el: ".swiper-pagination",
+        el: ".slider-pagination",
         type: 'bullets',
         clickable: true,
       },
